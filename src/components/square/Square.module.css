@@ -1,0 +1,71 @@
+/* Base styles */
+.square {
+  width: 300px;
+  height: 150px;
+  background-color: #1a237e;
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(58, 58, 58, 0.7);
+  border-radius: 70px;
+  margin:20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  direction: rtl;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Assistant";
+  margin-bottom: 10px;
+  color:#e5c94c;
+}
+
+.description {
+  font-size: 16px;
+  font-family: "AssistantR";
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+  .square {
+      width: 90%;
+      height: auto;
+      min-height: 120px;
+      padding: 10px;
+      border-radius: 50px;
+  }
+  .title {
+      font-size: 20px;
+      margin-bottom: 8px;
+  }
+  .description {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .square {
+      width: 90%;
+      height: auto;
+      min-height: 130px;
+      padding: 10px;
+      border-radius: 60px;
+  }
+  .title {
+      font-size: 22px;
+      margin-bottom: 9px;
+  }
+  .description {
+      font-size: 15px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .square {
+      width: 320px;
+      height: 160px;
+  }
+}

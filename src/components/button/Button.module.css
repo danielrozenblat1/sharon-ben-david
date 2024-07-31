@@ -1,0 +1,25 @@
+/* Base styles */
+.whatsappButton {
+  background: none;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  outline: none;
+  font-family: "AssistantR";
+}
+
+.whatsappButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.whatsappButton:active {
+  transform: scale(0.98);
+}
+
+.whatsappButton:focus {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}

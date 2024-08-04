@@ -8,6 +8,8 @@ import ForthScreen from './screens/ForthScreen';
 import FifthScreen from './screens/FifthScreen';
 import SixthScreen from './screens/SixthScreen';
 import SeventhScreen from './screens/SeventhScreen';
+import { When } from './components/when/When';
+import ByMe from './components/ByMe/ByMe';
 function App() {
 
   
@@ -41,6 +43,8 @@ function App() {
   <SixthScreen/>
   <SeventhScreen/>
   <FifthScreen/>
+  <When/>
+  <ByMe/>
   </>
 }
 

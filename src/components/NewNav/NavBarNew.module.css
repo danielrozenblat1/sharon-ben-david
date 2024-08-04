@@ -1,5 +1,5 @@
 .navbar {
-    background:#21134B; /* Linear gradient colors */
+    background:#011B3C; /* Linear gradient colors */
     height: 80px;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
   
   .sticky {
     position: fixed;
-    background: #21134B;
+    background: #011B3C;
     top: 0;
     left: 0;
     align-items: center;

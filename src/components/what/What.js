@@ -54,7 +54,7 @@ const playerRef1=useRef(null)
       </div>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
-      <Button text={text} message={message}/>
+
     </div>
   );
 };

@@ -11,7 +11,7 @@ return <>
 <div className={styles.background}>
 
 <AboutMe/>
-<div className={styles.title}>מקבץ קטן ממה שהלקוחות שלי חושבים עלי</div>
+<div className={styles.title}>המלצות</div>
 <div className={styles.center}><img className={styles.image} alt="שרון בן דוד" src={sharon}/></div>
 <div className={styles.title}>לפני כל הלוואה אני אוודא ש</div>
 <div className={styles.row}>

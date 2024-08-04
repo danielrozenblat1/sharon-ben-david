@@ -60,6 +60,7 @@ const ForthScreen=()=>{
 return <>
 
 <div className={styles.title}>אז למה בכלל  צריך יועץ משכנתאות?</div>
+<div className={styles.description}>לקיחת משכנתא הינה החלטה חשובה בחיינו אשר יכולה להשפיע על מצבו לאורך שנים ולקבוע את גורלנו לכן יש צורך לבצע את התהליך בחשיבה מעמיקה ומתוכננת . תהליך זה אינו פשוט וקל ויש להתחשב באתגרים שעומדים בפניכם :</div>
 <div className={styles.bigWrapper}>
 
 <div className={styles.step}>
@@ -69,8 +70,8 @@ icon={intereses}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>אינטרסים</div>
-    <div className={styles.section}>הבנקאי רואה את אינטרס הבנק  אני כיועץ רואה את אינטרס הלקוח - הלקוח במרכז ולא הבנק</div>
+    <div className={styles.stepHeader}>אינטרסים מנוגדים</div>
+    <div className={styles.section}>הבנקאי רואה את אינטרס הבנק למכור כסף וליצור רווח לבנק תפקידי לראות את האינטרס של הלקוח להתאים לו משכנתא ייעודי לו וליצור רווח נמוך לבנק ותמהיל מותאם אישית ללקוח ובכך למנוע מצב בו המשכנתא תהיה "עול " כבד עליכם. זה לא חוכמה לקחת משכנתה – החוכמה היא לחיות צמוד להחזרי המשכנתא ולא להגיע לקריסה כלכלית</div>
 </div>
 </div>
 {/* חץ לשלב הבא */}
@@ -80,8 +81,8 @@ icon={intereses}/>
 <div className={styles.text}>
 
  
-<div className={styles.stepHeader}>שפת הבנקאים</div>
-    <div className={styles.section}>לקוח פרטי אינו מבין את מושגי הבנק והמשמעויות  של המושגים לעומת יועץ שמבין ומדבר במושגי הבנקאי</div>
+<div className={styles.stepHeader}>מושגי הפיננסים זרים לכם</div>
+    <div className={styles.section}>אינכם מכירים את השפה הבנקאית , אינכם בקיאים במושגי פיננסים אשר עלולים להשפיע בצורה משמעותית על הרכב המשכנתא שלכם</div>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef2} delay={500} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()}
@@ -98,8 +99,8 @@ icon={work}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>תהליך הביצוע</div>
-    <div className={styles.section}>תהליך לקיחת המשכנתא הוא תהליך שיכול להיות מורט עצבים, ארוך ומייגע ולכן , חשוב שאיש מקצוע עם ידע ונסיון יהיה איתך לאורך כל התהליך וייוודא שהאינטרסים שלך תמיד נמצאים במקום הראשון</div>
+    <div className={styles.stepHeader}>תהליך קבלת המשכנתא</div>
+    <div className={styles.section}>תהליך לקיחת המשכנתא הוא תהליך מורכב הדורש תכנון פיננסי תחילה ובניית תוכנית מותאמת ללקוח , ליווי צמוד לאורך כל הדרך . עיכוב בתהליך עלול להשפיע על התוצאה הסופית שנקבל על כן יש צורך ביועץ אשר ילווה אותכם צעד צעד לאורך כל התהליך וימנע מכם כאב ראש גדול ותסכול</div>
 </div>
 </div>
 <div className={styles.step}>
@@ -107,8 +108,8 @@ icon={work}/>
 <div className={styles.text}>
 
  
-<div className={styles.stepHeader}>חוסר התמקדות בעיקר</div>
-    <div className={styles.section}>כלקוח אתה ממוקד בריביות שזה לא העיקר תפקיד היועץ להתמקד בנושאים המהותיים במשכנתא ולוודא שהבנקים לא עושים לך תרגיל</div>
+<div className={styles.stepHeader}>התמקדות בעיקר</div>
+    <div className={styles.section}>כלקוח אתה ממוקד בריביות שזה לא העיקרי במשכנתא כפי שמריבית האנשים חשובים תפקיד היועץ להתמקד בנושאים המהותיים במשכנתא ולא רק בריבית ולהביא ללקוח משכנת מותאמת לצרכיו</div>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef4} delay={500} size="100%" onComplete={() => playerRef4.current?.playFromBeginning()}
@@ -122,8 +123,8 @@ icon={planning}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>תכנון עסקה</div>
-    <div className={styles.section}>דרש לתכנן את המימון לעסקה, לבנות תמהיל להלוואה ולקבוע את החלוקת למסלולים השונים,  בהתאם לתכנון הפיננסי ולגובה ההחזרים החודשיים. ככל שההלוואה גבוהה יותר, כך חשיבותו של התמהיל גוברת. היועץ בבנק אינו בונה תוכנית עסקית מואמת באופן מלא ללקוח</div>
+    <div className={styles.stepHeader}>תכנון פיננסי</div>
+    <div className={styles.section}>תהליך לקיחת הלוואת משכנתא מחייב להתחיל בשלב ניתוח פיננסי לעסקה ולמערכת הכלכלית המשפחתית אשר ישפיע על כדאיות ויכולת לביצוע עסקה בצורה מושכלת ומותאמת למשפחה. תהליך זה נעשה על ידי כשלב ראשון בתהליך . יועץ בנקאי לא מבצע תכנון פיננסי ללקוח</div>
 </div>
 </div>
 

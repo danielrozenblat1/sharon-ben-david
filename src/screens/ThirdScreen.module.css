@@ -45,7 +45,7 @@
 }
 
 .background {
-    background: linear-gradient(to bottom right, #D1B530, #e5c94c);
+    background: linear-gradient(45deg, #F0E68C, #ebbc46, #F0E68C, #ebbc46);
     height: auto;
     width: 100vw;
 }
@@ -183,7 +183,7 @@
         width: 40%;
     }
 }
-@media (min-width: 1250px) and (max-width: 1450px) {
+@media (min-width: 1250px) and (max-width: 1600px) {
     .center {
         width: 30%;
     }

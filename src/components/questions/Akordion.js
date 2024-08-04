@@ -19,7 +19,7 @@ function DropdownAccordion({ title, content }) {
             boxShadow: '0px 2px 15px 0px rgba(87, 0, 140, 0.2)',
           width: "100%",
           margin: "auto",
-          background:"linear-gradient(to right, #D9B036, #e6c76a)",
+          background:"linear-gradient(to right, #e5c94c, #ffd770, #e5c94c, #eeba0e)",
   
           display: "flex",
           flexDirection: "column",

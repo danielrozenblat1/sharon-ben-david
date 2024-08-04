@@ -1,12 +1,13 @@
-/* Base styles */
 .center {
   display: flex;
   justify-content: center;
-  margin: 2% auto;
+  margin: 0 auto;
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 .button {
-  background: linear-gradient(145deg, #1d1b4a, #130938);
+  background: linear-gradient(145deg, #1f41bf, #2220b7);
   border: none;
   color: #ffffff;
   padding: 15px 25px;
@@ -22,12 +23,12 @@
 }
 
 .button:hover {
-  background: linear-gradient(145deg, #1d1b4a, #130938);
+  background: linear-gradient(145deg, #1f41bf, #2220b7);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button:active {
-  background: linear-gradient(145deg, #1d1b4a, #130938);
+  background: linear-gradient(145deg, #1f41bf, #2220b7);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transform: translateY(2px);
 }
@@ -39,9 +40,7 @@
       font-size: 1rem;
       border-radius: 12px;
   }
-  .center {
-      margin: 4% auto;
-  }
+
 }
 
 @media (min-width: 350px) and (max-width: 450px) {
@@ -50,9 +49,7 @@
       font-size: 1.1rem;
       border-radius: 13px;
   }
-  .center {
-      margin: 3% auto;
-  }
+
 }
 
 @media (min-width: 450px) and (max-width: 550px) {

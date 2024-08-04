@@ -12,7 +12,7 @@ import Button from "../components/newButton/Button"
 const SixthScreen = () => {
     return (
       <div className={styles.container} itemscope itemtype="http://schema.org/WebPage">
-        <div className={styles.title} itemprop="headline">תהליך קבלת הלוואה</div>
+        <div className={styles.title} itemprop="headline">תהליך העבודה איתי</div>
         <div className={styles.subTitle} itemprop="description">להלן השלבים המרכזיים בתהליך קבלת ההלוואה שלך</div>
         <Line side="right" text="שליחת מסמכים" icon={one}/>
         <div className={styles["line-divider"]}></div>
@@ -37,7 +37,12 @@ const SixthScreen = () => {
         <Line side="left" text="שחרור כסף" icon={six} />
         <div className={styles["line-divider"]}></div>
         <div className={styles.description} itemprop="description">לאחר השלמת כל השלבים, הכסף ישוחרר לחשבונך.</div>
-        <div className={styles.center}><Button text="אני מעוניין לשמוע עוד על תהליך ההלוואה"/></div>
+        <div className={styles["line-divider"]}></div>
+        <Line side="right" text="בדיקת כדאיות מחזור" icon={seven} />
+        <div className={styles["line-divider"]}></div>
+        <div className={styles.description} itemprop="description">תהליך שקורה כל שנתיים - אני מנתח את תנאי המשכנתה הקיימת, בוחן את השינויים בשוק ובמצב הכלכלי שלך כדי לקבוע האם מחזור המשכנתה יהיה כדאי עבורך או שיש לבצע שינויים  </div>
+       
+        <div className={styles.center}><Button text="שרון, אני אשמח שנדבר"/></div>
       </div>
     );
   };

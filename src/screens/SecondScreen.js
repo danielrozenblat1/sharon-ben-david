@@ -11,8 +11,7 @@ const SecondScreen=()=>{
   
 <div className={styles.background}>
 
-
-<div className={styles.title}>אלווה אותך עד שתקבל</div>
+<div className={styles.title}>המסלולים שלי</div>
 <div className={styles.row}>
 <Card title="בנייה עצמית" description=
 "אלווה אתכם בכל שלבי הבנייה העצמית. אתכנן עמכם את התקציב, אבחר את מסלול המימון המיטבי, ואנווט בין אפשרויות המשכנתא. אסייע בהתמודדות עם אתגרי הפרויקט, כולל שחרור כספים בשלבים." icon={building} text="לעוד מידע" message="היי שרון, אשמח לשמוע עוד על בנייה עצמית "/>

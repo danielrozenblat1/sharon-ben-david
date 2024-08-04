@@ -9,7 +9,7 @@ const SeventhScreen=()=>{
 
 return <>
 <div className={styles.background}>
-<div className={styles.title}>סוגי המשכנתאות בהן אני מתמחה</div>
+<div className={styles.title} id="תחומי המומחיות שלי">סוגי המשכנתאות בהן אני מתמחה</div>
 <div className={styles.row}>
 <Box title="משכנתא יד ראשונה מקבלן" icon={house}/>
 <Box title="בניה עצמית" icon={house}/>

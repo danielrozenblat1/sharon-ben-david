@@ -12,7 +12,7 @@ import Button from "../components/newButton/Button"
 const SixthScreen = () => {
     return (
       <div className={styles.container} itemscope itemtype="http://schema.org/WebPage">
-        <div className={styles.title} itemprop="headline">תהליך העבודה איתי</div>
+        <div className={styles.title} itemprop="headline" id="תהליך העבודה איתי">תהליך העבודה איתי</div>
         <div className={styles.subTitle} itemprop="description">להלן השלבים המרכזיים בתהליך קבלת ההלוואה שלך</div>
         <Line side="right" text="שליחת מסמכים" icon={one}/>
         <div className={styles["line-divider"]}></div>

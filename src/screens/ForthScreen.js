@@ -1,9 +1,9 @@
 import styles from "./ForthScreen.module.css"
-import intereses from "../Icons/wired-lineal-1652-mortgage-loan.json"
-import language from "../Icons/wired-lineal-969-meeting-conference-room (1).json"
-import work from "../Icons/wired-lineal-999-money-check.json"
-import focus from "../Icons/wired-lineal-755-invoice-receipt-validating-ticket (1).json"
-import planning from "../Icons/wired-lineal-979-project-estimate.json"
+import intereses from "../Icons/wired-lineal-1652-mortgage-loan (1).json"
+import language from "../Icons/wired-lineal-969-meeting-conference-room (2).json"
+import work from "../Icons/wired-lineal-999-money-check (1).json"
+import focus from "../Icons/wired-lineal-755-invoice-receipt-validating-ticket (2).json"
+import planning from "../Icons/wired-lineal-979-project-estimate (1).json"
 import { useEffect, useRef } from "react"
 import ScrollReveal from "scrollreveal"
 import { Player } from "@lordicon/react"
@@ -71,7 +71,8 @@ icon={intereses}/>
 <div className={styles.text}>
 
     <div className={styles.stepHeader}>אינטרסים מנוגדים</div>
-    <div className={styles.section}>הבנקאי רואה את אינטרס הבנק למכור כסף וליצור רווח לבנק תפקידי לראות את האינטרס של הלקוח להתאים לו משכנתא ייעודי לו וליצור רווח נמוך לבנק ותמהיל מותאם אישית ללקוח ובכך למנוע מצב בו המשכנתא תהיה "עול " כבד עליכם. זה לא חוכמה לקחת משכנתה – החוכמה היא לחיות צמוד להחזרי המשכנתא ולא להגיע לקריסה כלכלית</div>
+    <div className={styles.section}> הבנקאי רואה את אינטרס הבנק למכור כסף וליצור רווח לבנק  
+    תפקידי לראות את האינטרס של הלקוח להתאים לו משכנתא ייעודי לו וליצור רווח נמוך לבנק ותמהיל מותאם אישית ללקוח ובכך למנוע מצב בו המשכנתא תהיה "עול" כבד עליכם. זה לא חוכמה לקחת משכנתה – החוכמה היא לחיות צמוד להחזרי המשכנתא ולא להגיע לקריסה כלכלית</div>
 </div>
 </div>
 {/* חץ לשלב הבא */}

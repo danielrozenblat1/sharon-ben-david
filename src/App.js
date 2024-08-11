@@ -41,7 +41,7 @@ function App() {
   <ForthScreen/>
   <ThirdScreen/>
   <SixthScreen/>
-  <SeventhScreen/>
+  {/* <SeventhScreen/> */}
   <FifthScreen/>
   <When/>
   <ByMe/>

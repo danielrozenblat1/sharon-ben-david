@@ -1,7 +1,7 @@
 /* Base styles */
 .square {
-  width: 300px;
-  height: 150px;
+  width: 320px;
+  height: auto;
   background-color: #1a237e;
   color: #ffffff;
   padding: 20px;
@@ -15,17 +15,22 @@
   align-items: center;
   text-align: center;
 }
+.icon {
 
+  width: 25%;
+  justify-content: center;
+}
 .title {
   font-size: 24px;
   font-family: "Assistant";
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color:#e5c94c;
 }
 
 .description {
   font-size: 16px;
   font-family: "AssistantR";
+
 }
 
 /* Responsive styles */
@@ -42,8 +47,11 @@
       margin-bottom: 8px;
   }
   .description {
-      font-size: 14px;
+      font-size: 15px;
   }
+  .icon {
+    width: 20%;
+}
 }
 
 @media (min-width: 350px) and (max-width: 450px) {
@@ -54,18 +62,22 @@
       padding: 10px;
       border-radius: 60px;
   }
+  .icon {
+    width: 22%;
+}
   .title {
       font-size: 22px;
       margin-bottom: 9px;
   }
   .description {
-      font-size: 15px;
+      font-size: 16px;
+      width:95%;
   }
 }
 
 @media (min-width: 450px) and (max-width: 550px) {
   .square {
       width: 320px;
-      height: 160px;
+      height: auto;
   }
 }

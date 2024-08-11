@@ -3,7 +3,7 @@ import { Player } from '@lordicon/react';
 import styles from './What.module.css';
 import ScrollReveal from 'scrollreveal';
 import Button from '../button/Button';
-const Card = ({ title, icon, description,message,text }) => {
+const Card = ({ title, icon, description,border }) => {
 const playerRef1=useRef(null)
     useEffect(()=>{
         playerRef1?.current?.playFromBeginning();
@@ -48,7 +48,7 @@ const playerRef1=useRef(null)
           });
       },[])
   return (
-    <div className={styles.card}>
+    <div className={styles.card} style={{border: border ? border : "none",hover: !border && "none"}}>
       <div className={styles.icon}>
       <Player icon={icon} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
       </div>

@@ -35,16 +35,19 @@ function App() {
     }
   };
   return <>
+  <div class="app">
   <NavBarNew />
   <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <ForthScreen/>
-  <ThirdScreen/>
   <SixthScreen/>
+  <ThirdScreen/>
+
   {/* <SeventhScreen/> */}
   <FifthScreen/>
   <When/>
   <ByMe/>
+  </div>
   </>
 }
 
